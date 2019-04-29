@@ -1,0 +1,16 @@
+name: journee-mondiale
+version: git
+summary: Journée mondiale
+description: |
+  Journée mondiale for terminal
+grade: stable
+confinement: devmode
+
+apps:
+  journee-mondiale:
+    command: journee-mondiale
+
+parts:
+  journee-mondiale:
+    plugin: nodejs
+    source: .
