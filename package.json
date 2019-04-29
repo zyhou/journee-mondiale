@@ -1,0 +1,29 @@
+{
+    "name": "journee-mondiale",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "zyhou <richard.maxime9@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "yarn build && node dist/index.js",
+        "build": "rm -rf dist && babel src --out-dir dist",
+        "lint": "eslint --fix ."
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.4.4",
+        "@babel/core": "^7.4.4",
+        "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+        "@babel/preset-env": "^7.4.4",
+        "@babel/preset-react": "^7.0.0",
+        "eslint": "^5.16.0",
+        "eslint-config-prettier": "^4.2.0",
+        "eslint-plugin-prettier": "^3.0.1",
+        "eslint-plugin-react": "^7.12.4",
+        "prettier": "^1.17.0"
+    },
+    "dependencies": {
+        "date-fns": "^1.30.1",
+        "ink": "^2.1.1",
+        "react": "^16.8.6"
+    }
+}
