@@ -3,7 +3,7 @@ import format from 'date-fns/format';
 import startOfToday from 'date-fns/start_of_today';
 import locale from 'date-fns/locale/fr';
 import { render, Box, Color } from 'ink';
-import days from './days.js';
+import days from './days.json';
 
 const today = startOfToday();
 const longDay = format(today, 'dddd Do MMMM YYYY', { locale });
