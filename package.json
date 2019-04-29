@@ -1,8 +1,15 @@
 {
     "name": "journee-mondiale",
-    "version": "1.0.0",
+    "version": "0.0.4",
     "main": "index.js",
+    "bin": {
+        "journee-mondiale": "./bin/journee-mondiale"
+    },
     "author": "zyhou <richard.maxime9@gmail.com>",
+    "description": "Journée mondiale",
+    "keywords": [
+        "Journée mondiale"
+    ],
     "license": "MIT",
     "scripts": {
         "start": "yarn build && node dist/index.js",
@@ -25,5 +32,10 @@
         "date-fns": "^1.30.1",
         "ink": "^2.1.1",
         "react": "^16.8.6"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zyhou/journee-mondiale.git"
+    },
+    "homepage": "https://github.com/zyhou/journee-mondiale#readme"
 }
