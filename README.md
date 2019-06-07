@@ -11,4 +11,4 @@ yarn global add journee-mondiale
 
 ### Mettre à jour les données des différentes journées   
 
-Utiliser le script https://gist.github.com/Kmaschta/b6e17a2b7f5620feb03c00674027467a, et copier les informations dans le fichier days.json.
+Utiliser [le script](https://gist.github.com/Kmaschta/b6e17a2b7f5620feb03c00674027467a), et copier les informations dans le fichier days.json.
