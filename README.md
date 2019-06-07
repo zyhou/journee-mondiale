@@ -20,7 +20,7 @@ journee-mondiale
 Tu peux passer plusieurs options pour changer le compotement de journee-mondiale
 
 ```shell
-journee-mondiale [-d <depuis-x-jours] 
+journee-mondiale [-d/--days <depuis-x-jours> ] 
 ```
 
 Voici le détail pour chaque options
