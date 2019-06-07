@@ -1,13 +1,34 @@
-## Journée mondiale
+# Journée mondiale
 
-Un simple cli qui vous permet de voir les différentes journées mondiale du jour.
+Un simple cli qui te permet de voir les différentes journées mondiale du jour.
 
-### Installation
+## Installation
 
-```
+```shell
 npm i -g journee-mondiale
 yarn global add journee-mondiale
 ```
+
+## Utilisation
+
+```shell
+journee-mondiale
+```
+
+## Options
+
+Tu peux passer plusieurs options pour changer le compotement de journee-mondiale
+
+```shell
+journee-mondiale [-d <depuis-x-jours] 
+```
+
+Voici le détail pour chaque options
+
+| Option | Description |
+| --- | --- |
+| d | Spécifie un nombre de jours pour voir les jours précédents, ie `-d 1` pour avoir les journées d'hier |
+
 
 ### Mettre à jour les données des différentes journées   
 
