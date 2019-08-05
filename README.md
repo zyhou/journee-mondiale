@@ -17,7 +17,7 @@ journee-mondiale
 
 ## Options
 
-Tu peux passer plusieurs options pour changer le compotement de journee-mondiale
+Tu peux passer plusieurs options pour changer le comportement de journee-mondiale
 
 ```shell
 journee-mondiale [-d/--days <depuis-x-jours> ] 
