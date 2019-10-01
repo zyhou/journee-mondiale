@@ -1,7 +1,6 @@
 import React from 'react';
 import format from 'date-fns/format';
-import startOfToday from 'date-fns/start_of_today';
-import addDays from 'date-fns/add_days';
+import { startOfToday, addDays } from 'date-fns';
 import locale from 'date-fns/locale/fr';
 import { render, Box, Color } from 'ink';
 import meow from 'meow';
@@ -21,8 +20,8 @@ const daysArgs = cli.flags.days;
 const today = startOfToday();
 const date = daysArgs ? addDays(today, -daysArgs) : today;
 
-const longDay = format(date, 'dddd Do MMMM YYYY', { locale });
-const shortDay = format(date, 'MM-DD');
+const longDay = format(date, 'iiii d MMMM yyyy', { locale });
+const shortDay = format(date, 'LL-dd');
 
 const day = days[shortDay];
 
