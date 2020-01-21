@@ -11,6 +11,10 @@
         "Journée mondiale"
     ],
     "license": "MIT",
+    "files": [
+        "bin/",
+        "dist/"
+    ],
     "scripts": {
         "start": "yarn build && node dist/index.js",
         "build": "rm -rf dist && babel src --out-dir dist && cp src/days.json dist/days.json",
