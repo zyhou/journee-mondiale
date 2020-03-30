@@ -30,7 +30,7 @@ const MondialDays = () => (
         <Box marginTop={1}>
             <Color cyan>Nous sommes le {longDay}</Color>
         </Box>
-        {day && day.map(day => <Box key={day.text}>{day.text}</Box>)}
+        {day && day.map((day) => <Box key={day.text}>{day.text}</Box>)}
         {!day && 'Pas de jour'}
     </React.Fragment>
 );
