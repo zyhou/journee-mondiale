@@ -1,6 +1,6 @@
 {
     "name": "journee-mondiale",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "main": "index.js",
     "bin": {
         "journee-mondiale": "./bin/journee-mondiale"
