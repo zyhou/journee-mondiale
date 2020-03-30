@@ -1,5 +1,7 @@
 # Journée mondiale
 
+[![npm version](https://badge.fury.io/js/journee-mondiale.svg)](https://www.npmjs.com/package/journee-mondiale)
+
 Un simple cli qui te permet de voir les différentes journées mondiale du jour.
 
 ## Installation
