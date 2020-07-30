@@ -4,18 +4,10 @@
 
 Un simple cli qui te permet de voir les différentes journées mondiale du jour.
 
-## Installation
-
-```shell
-npm i -g journee-mondiale
-yarn global add journee-mondiale
-npx journee-mondiale
-```
-
 ## Utilisation
 
 ```shell
-journee-mondiale
+npx journee-mondiale
 ```
 
 ## Options
