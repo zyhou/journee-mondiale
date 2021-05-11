@@ -16,9 +16,9 @@ const cli = meow({
     },
 });
 
-const daysArgs = cli.flags.days;
+const daysArguments = cli.flags.days;
 const today = startOfToday();
-const date = daysArgs ? addDays(today, -daysArgs) : today;
+const date = daysArguments ? addDays(today, -daysArguments) : today;
 
 const longDay = format(date, 'iiii d MMMM yyyy', { locale });
 const shortDay = format(date, 'LL-dd');

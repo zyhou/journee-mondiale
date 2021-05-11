@@ -26,9 +26,9 @@
         "@babel/core": "7.10.5",
         "@babel/preset-env": "7.10.4",
         "@babel/preset-react": "7.10.4",
-        "eslint": "7.5.0",
-        "eslint-config-zyhou": "0.0.6",
-        "prettier": "2.0.5"
+        "eslint": "7.26.0",
+        "eslint-config-zyhou": "0.0.9",
+        "prettier": "2.3.0"
     },
     "dependencies": {
         "date-fns": "2.15.0",
